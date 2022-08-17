@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
+$white: #ffffff;
+$black: #232323;
+$yellow: #ffef78;
+$pink: #eb92be;
+$bg-symbol: #d72880;
+$green: #63c9b4;
+$body-bg: linear-gradient(320deg, $pink, $yellow, $green);
+$font: 'Dosis', sans-serif;
+$border: 1px solid;
+
+@mixin number-glassmorphism {
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  background: rgba($white, 0.75);
+  border: $border rgba($white, 0.01);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba($black, 0.1);
+  color: $black;
+}
+
+@mixin symbol-glassmorphism {
+  @include number-glassmorphism;
+  background: $bg-symbol;
+}
+
+@mixin wrapper-glassmorphism {
+  @include number-glassmorphism;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  background: rgba($white, 0.30);
+  border: $border rgba($white, 0.34);
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  background: $body-bg;
+  display: flex;
+  font-family: $font;
+  font-display: swap;
+  height: inherit;
+  justify-content: center;
+}
+
+.wrapper {
+  @include wrapper-glassmorphism;
+  flex-basis: 400px;
+  height: 540px;
+  padding: 20px 35px;
+}
+
+.screen {
+  @include number-glassmorphism;
+  font-size: 35px;
+  padding: 20px;
+  text-align: right;
+}
+
+.calc-button-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 5% 0;
+}
+
+.calc-button {
+  @include number-glassmorphism;
+  flex-basis: 20%;
+  font-family: inherit;
+  font-size: 24px;
+  height: 65px;
+
+  &:last-child {
+    @include symbol-glassmorphism;
+    color: $white;
+
+    &:hover {
+      background-color: inherit;
+      color: inherit;
+    }
+  }
+
+  &:hover {
+    background-color: inherit;
+  }
+
+  &:active {
+    background-color: $yellow;
+  }
+}
+
+.double {
+  flex-basis: 47%;
+}
+
+.triple {
+  flex-basis: 73%;
+}
