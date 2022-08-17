@@ -2,7 +2,7 @@
 
 **Blog article:** [JavaScript Calculator](https://yuridevat.hashnode.dev/how-i-got-my-first-job-as-a-developer)
 
-![Thumbnail](https://github.com/YuriDevAT/sos-animals/blob/main/public/thumbnail-sos.png)
+![Thumbnail](https://github.com/YuriDevAT/calculator/blob/main/public/assets/calculator.png)
 
 ## Demo
 
@@ -11,7 +11,7 @@ Live view by clicking at [GitHub Pages](yuridevat.github.io/calculator/)
 You can also clone the project and open it in localhost, or enjoy the preview
 video below instead :smile:
 
-https://user-images.githubusercontent.com/54622834/127658950-b1964a1c-dfc3-4853-be04-9c14a35f569c.mov
+<!--https://user-images.githubusercontent.com/54622834/127658950-b1964a1c-dfc3-4853-be04-9c14a35f569c.mov-->
 
 # Get the code
 
