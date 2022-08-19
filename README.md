@@ -2,7 +2,7 @@
 
 **Blog article:** [JavaScript Calculator](https://yuridevat.hashnode.dev/how-i-got-my-first-job-as-a-developer)
 
-![Thumbnail](https://github.com/YuriDevAT/calculator/blob/main/public/assets/calculator.png)
+![Thumbnail](https://github.com/YuriDevAT/calculator/blob/main/assets/calculator.png)
 
 ## Demo
 
