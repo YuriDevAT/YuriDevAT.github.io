@@ -8,7 +8,7 @@ A functional calculator using JavaScript Scss to show that a project is much mor
 
 ## Demo
 
-Live view by clicking at [GitHub Pages](yuridevat.github.io/)
+Live view by clicking at [GitHub Pages](https://yuridevat.github.io/)
 
 You can also clone the project and open it in localhost, or enjoy the preview
 video below instead :smile:
