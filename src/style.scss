@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
 
-$white: #ffffff;
-$black: #232323;
-$yellow: #ffef78;
-$pink: #eb92be;
 $bg-symbol: #d72880;
-$green: #63c9b4;
+$black: #232323;
 $body-bg: linear-gradient(320deg, $pink, $yellow, $green);
-$font: 'Dosis', sans-serif;
 $border: 1px solid;
+$font: 'Dosis', sans-serif;
+$green: #63c9b4;
+$pink: #eb92be;
+$yellow: #ffef78;
+$white: #ffffff;
 
 @mixin number-glassmorphism {
   backdrop-filter: blur(5.5px);
