@@ -5,7 +5,10 @@ A functional calculator using HTML, SCSS and JavaScript to show that a project i
 To use the calculator, simply click on the numbers you want to operate on and an operator of your choice to see results.
 
 To get insight information on this project, kindly check out the following
-**Blog article:** [How I got my first job as a developer by making simple projects seem big](https://yuridevat.hashnode.dev/how-i-got-my-first-job-as-a-developer), written specifically for Week 1 of the [**4 Articles in 4 Weeks - Hashnode Writeathon**](https://townhall.hashnode.com/4-articles-in-4-weeks-hashnode-writeathon).
+**blog article:**
+
+[How I got my first job as a developer by making simple projects seem big](https://yuridevat.hashnode.dev/how-i-got-my-first-job-as-a-developer),
+written specifically for Week 1 of the [**4 Articles in 4 Weeks - Hashnode Writeathon**](https://townhall.hashnode.com/4-articles-in-4-weeks-hashnode-writeathon).
 
 ![Thumbnail](https://github.com/YuriDevAT/calculator/blob/main/assets/calculator.png)
 
