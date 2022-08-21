@@ -1,19 +1,17 @@
 # Description
 
-A functional calculator using JavaScript Scss to show that a project is much more than just code.
+A functional calculator using HTML, SCSS and JavaScript to show that a project is much more than just code.
 
-**Blog article:** [JavaScript Calculator](https://yuridevat.hashnode.dev/how-i-got-my-first-job-as-a-developer)
+To use the calculator, simply click on the numbers you want to operate on and an operator of your choice to see results.
+
+To get insight information on this project, kindly check out the following
+**Blog article:** [How I got my first job as a developer by making simple projects seem big](https://yuridevat.hashnode.dev/how-i-got-my-first-job-as-a-developer), written specifically for Week 1 of the [**4 Articles in 4 Weeks - Hashnode Writeathon**](https://townhall.hashnode.com/4-articles-in-4-weeks-hashnode-writeathon).
 
 ![Thumbnail](https://github.com/YuriDevAT/calculator/blob/main/assets/calculator.png)
 
 ## Demo
 
-Live view by clicking at [GitHub Pages](https://yuridevat.github.io/)
-
-You can also clone the project and open it in localhost, or enjoy the preview
-video below instead :smile:
-
-<!--https://user-images.githubusercontent.com/54622834/127658950-b1964a1c-dfc3-4853-be04-9c14a35f569c.mov-->
+[Live view](https://yuridevat.github.io/) of the project.
 
 # Get the code
 
@@ -26,19 +24,37 @@ Before cloning this project, make sure you have the following tools installed:
 On your computer
 
 - [Git](https://git-scm.com/downloads)
-- [VS Code](https://code.visualstudio.com/download) (or and IDE of your choice)
+- [VS Code](https://code.visualstudio.com/download) (or an IDE of your choice)
 
-Extensions needed in VSCode
+Extensions used to successfully show the code
 
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 - [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass)
 
 ## Installation
 
-1. Clone the project
-2. Follow the instructions in the console:
-3. Navigate to the project directory cd sos-animals
-4. Run the project by right click on the `index.html` file and choose 'Open with Live Server'.
+1. In the console go to the directory where you want to save the project by typing the following command (example):
+
+```bash
+cd projects && mkdir calculator && cd calculator
+```
+
+2. Clone the code by typing the following command:
+
+```bash
+git clone https://github.com/YuriDevAT/YuriDevAT.github.io.git
+```
+
+3. Navigate to the project directory and open the project
+
+```bash
+cd calculator && code .
+```
+
+4. Run the project by right click on the `index.html` file and choose **Open with Live Server** (the port should open automatically)
+5. Run the stylesheet\* by clicking **Watch Sass** in the status bar of the bottom of VS Code
+
+\*When watching Sass, the project will automatically compile the stylesheet and update the browser. Two files (style.css and style.css.map) will be created in the project directory.
 
 ## Contributors
 
